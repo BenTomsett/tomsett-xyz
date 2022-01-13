@@ -1,0 +1,12 @@
+@import url("https://use.typekit.net/osa6epm.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-slate-50;
+    @apply dark:bg-gray-900;
+    @apply transition-colors;
+    @apply duration-200;
+}
