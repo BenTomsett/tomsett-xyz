@@ -13,6 +13,8 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <title>Home - Ben Tomsett</title>
+          <meta name="description" content="Computing student, full stack developer and technical support analyst" />
           <meta name="twitter:card" content="summary" key="twcard" />
           <meta name="twitter:creator" content="@benjitomsett" key="twhandle" />
           <meta property="og:url" content="https://tomsett.xyz" key="ogurl" />
