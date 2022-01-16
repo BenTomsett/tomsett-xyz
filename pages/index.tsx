@@ -14,7 +14,7 @@ const Home: NextPage = () => (
         <Header />
         <div className="flex flex-col justify-center px-8 mx-auto w-full max-w-5xl md:my-20 my-2">
           <h1 className="text-4xl font-bold mb-4 text-slate-900 dark:text-gray-300">
-            Hi! I&apos;m Benji! 👋
+            Hi! I&apos;m Ben! 👋
           </h1>
           <h2 className="text-3xl font-medium mb-4 text-slate-500 dark:text-gray-500">
             I’m a

@@ -20,7 +20,6 @@ module.exports = {
     require('tailwind-safelist-generator')({
       patterns: [
         'text-{colors}',
-        'border-{colors}',
         'bg-{colors}',
         'hover:border-{colors}',
         'hover:shadow-{colors}',
