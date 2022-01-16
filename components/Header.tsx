@@ -10,6 +10,7 @@ const Header = () => (
       <div className="flex flex-row justify-between top-0 py-10 px-8 mx-auto w-full max-w-5xl">
         <Logo />
         <Button
+          ariaLabel="Random page color"
           compact
           onClick={() => randomColor()}
           endIcon={<RefreshCw />}
