@@ -13,10 +13,13 @@ const Home: NextPage = () => (
       <div className="dark:text-gray-200 transition-colors duration-200">
         <Header />
         <div className="flex flex-col justify-center px-8 mx-auto w-full max-w-5xl md:my-20 my-2">
+          <div className="text-7xl mb-5">👋</div>
           <h1 className="text-4xl font-bold mb-4 text-slate-900 dark:text-gray-300">
-            Hi! I&apos;m Ben! 👋
+            Hey! I&apos;m Ben!
+            {' '}
+            <div className="text-lg text-slate-400 dark:text-gray-600">(a.k.a. Benji)</div>
           </h1>
-          <h2 className="text-3xl font-medium mb-4 text-slate-500 dark:text-gray-500">
+          <h2 className="text-2xl md:text-3xl font-medium mb-4 text-slate-500 dark:text-gray-500">
             I’m a
             computer science student based in England, with full-stack
             experience designing web and mobile apps. I work with React &
