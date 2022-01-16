@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const Logo = () => {
@@ -41,13 +41,23 @@ const Logo = () => {
     },
   };
 
+  const [loadAni, setLoadAni] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoadAni(true);
+    }, 500);
+    setTimeout(() => {
+      setLoadAni(false);
+    }, 3500);
+  }, []);
+
   return (
     <motion.svg
       className="translate-x-[-12.5px] dark:fill-white"
       whileTap="hover"
       whileHover="hover"
       initial="rest"
-      animate="rest"
+      animate={loadAni ? 'hover' : 'rest'}
       width="142px"
       height="61px"
       viewBox="0 0 142 61"
