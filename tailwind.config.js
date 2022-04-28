@@ -21,6 +21,7 @@ module.exports = {
       patterns: [
         'text-{colors}',
         'bg-{colors}',
+        'hover:text-{colors}',
         'hover:border-{colors}',
         'hover:shadow-{colors}',
         'dark:text-{colors}',
