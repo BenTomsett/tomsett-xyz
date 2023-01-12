@@ -65,12 +65,11 @@ const Home: NextPage = () => (
             </h3>
             <p className="text-lg leading-6 dark:text-gray-200">
               I’m currently studying computer science at the University of
-              East Anglia, and am also working as a technical
+              East Anglia, and also working as a technical
               support analyst at catalyst2. Previously I’ve worked as a
               freelancer for both local businesses and charities as well
-              as
-              nationwide organisations; designing brands, building website
-              and increasing social media presence.
+              as nationwide organisations; designing brands, building websites
+              and maximising social media presence.
             </p>
             <p className="text-lg leading-6 dark:text-gray-200">
               I have experience building full stack applications in React
