@@ -42,13 +42,6 @@ const Home: NextPage = () => (
             />
             <Button
               onClick={() => {
-                window.open('https://twitter.com/benjitomsett');
-              }}
-              endIcon={<Twitter size="20" />}
-              text="Twitter"
-            />
-            <Button
-              onClick={() => {
                 window.open('https://linkedin.com/in/bentomsett');
               }}
               endIcon={<Linkedin size="20" />}
@@ -87,38 +80,9 @@ const Home: NextPage = () => (
           </div>
         </div>
         <div>
-          <div className="max-w-5xl mx-auto px-8 py-12">
-            <h3 className={`text-2xl font-semibold text-${color}-900 dark:text-${color}-600`}>Contact</h3>
-            <p className="text-lg leading-6">
-              Need to get in touch?
-              {' '}
-              <a
-                className={`underline hover:text-${color}-500`}
-                target="_blank"
-                href="https://twitter.com/messages/compose?recipient_id=1481743089064677381"
-                rel="noreferrer"
-              >
-                DM me on Twitter
-              </a>
-              {' '}
-              or
-              {' '}
-              <a
-                className={`underline hover:text-${color}-500`}
-                target="_blank"
-                href="mailto:ben@tomsett.xyz"
-                rel="noreferrer"
-              >
-                drop me an email
-              </a>
-              .
-            </p>
-          </div>
-        </div>
-        <div>
           <div className="max-w-5xl mx-auto px-8 pt-20 pb-10">
             <p className="text-md leading-6">
-              © Ben Tomsett 2022
+              © Ben Tomsett 2024
             </p>
           </div>
         </div>
