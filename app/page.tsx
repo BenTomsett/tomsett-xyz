@@ -86,7 +86,7 @@ export default function Page() {
             <Pill text="Looking for new opportunities" icon="icon-rss" scrollToId="connect" />
           </div>
           <i
-            className="icon-move-down absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-4xl text-gray-400"/>
+            className="icon-move-down absolute bottom-8 animate-bounce text-4xl text-gray-400"/>
         </div>
       </div>
 
