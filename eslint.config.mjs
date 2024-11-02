@@ -29,6 +29,13 @@ export default [
         '*.config.js'
     ]
   },
+  {
+    rules: {
+      "tailwindcss/no-custom-classname": [1, {
+        whitelist: ['icon\\-.*']
+      }]
+    }
+  },
   ...tseslint.configs.recommendedTypeChecked,
   ...tseslint.configs.stylisticTypeChecked,
   pluginReact.configs.flat.recommended,

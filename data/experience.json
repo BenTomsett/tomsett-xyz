@@ -1,0 +1,48 @@
+[
+  {
+    "name": "team.blue",
+    "slug": "teamblue",
+    "positions": [
+      {
+        "title": "Software Engineer, UK Server Brands",
+        "from": "2023-02-01",
+        "description": "As a Software Engineer at team.blue, I work on both legacy and modern systems across the company's UK server brands, specialising in Ruby on Rails and Python. I've worked on a number of business critical projects, including the successful large-scale migration and integration of multiple customer billing platforms."
+      },
+      {
+        "title": "Technical Analyst, catalyst2",
+        "from": "2021-01-01",
+        "to": "2023-10-01",
+        "description": "First/second line support at a leading UK-based managed web hosting provider. Responsible for responding to customer requests over phone, email and live chat, as well as routine, day-to-day server maintenance and upkeep. At catalyst2 I worked as part of a team delivering award winning customer service."
+      }
+    ]
+  },
+  {
+    "name": "Sawtry Youth Project",
+    "slug": "syp",
+    "positions": [
+      {
+        "title": "Secretary, Trustee",
+        "from": "2016-07-01",
+        "to": "2021-06-01",
+        "description": "This was a volunteer role for the Sawtry Youth Project, a local charitable organisation aimed at improving sport and leisure amenities for young people in Sawtry, Cambridgeshire. Our main goal was to secure the funds and permission to build a skatepark. My responsibilities for the charity included attending and taking minutes at meetings to shape the future of the Project, attending local government meetings and committees, managing the Project’s social media channels and website as well as engaging with the community both online and at our fundraising events. Over the nearly 8 years the project was active, we successfully lobbied the Parish Council for permission to build the skatepark, fundraised £20,000, and secured grants to fund the project."
+      },
+      {
+        "title": "Media & IT Coordinator, Trustee",
+        "from": "2015-01-01",
+        "to": "2021-06-01"
+      }
+    ]
+  },
+  {
+    "name": "Tesco Mobile",
+    "slug": "tescomobile",
+    "positions": [
+      {
+        "title": "Customer Assistant",
+        "from": "2019-07-01",
+        "to": "2021-01-01",
+        "description": "Responsible for greeting customers in the store, assessing their queries & needs, as well as processing sales and providing technical & account support. As part of the Phoneshop team, I was responsible for inspiring enthusiasm and customer confidence in technology, and ensuring customers walked out happy every time. During my time at Tesco Mobile, I was recognised for consistently high customer satisfaction (NPS) scores, and routinely meeting sales targets."
+      }
+    ]
+  }
+]

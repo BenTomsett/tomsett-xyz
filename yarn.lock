@@ -1080,6 +1080,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: 10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^2.0.1":
   version: 2.0.1
   resolution: "color-convert@npm:2.0.1"
@@ -1187,6 +1194,13 @@ __metadata:
     es-errors: "npm:^1.3.0"
     is-data-view: "npm:^1.0.1"
   checksum: 10c0/21b0d2e53fd6e20cc4257c873bf6d36d77bd6185624b84076c0a1ddaa757b49aaf076254006341d35568e89f52eecd1ccb1a502cfb620f2beca04f48a6a62a8f
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "date-fns@npm:4.1.0"
+  checksum: 10c0/b79ff32830e6b7faa009590af6ae0fb8c3fd9ffad46d930548fbb5acf473773b4712ae887e156ba91a7b3dc30591ce0f517d69fd83bd9c38650fdc03b4e0bac8
   languageName: node
   linkType: hard
 
@@ -2517,6 +2531,13 @@ __metadata:
   dependencies:
     yallist: "npm:^4.0.0"
   checksum: 10c0/cb53e582785c48187d7a188d3379c181b5ca2a9c78d2bce3e7dee36f32761d1c42983da3fe12b55cb74e1779fa94cdc2e5367c028a9b35317184ede0c07a30a9
+  languageName: node
+  linkType: hard
+
+"lucide-static@npm:^0.454.0":
+  version: 0.454.0
+  resolution: "lucide-static@npm:0.454.0"
+  checksum: 10c0/9ddff4e9204e982ef08d86a36ffce0faad0b89a52a98cdebe31920f70e8ad8789c4abdb2628712d88010d7123f1aadf0f999f54e9f5f7ad25301c5ce17f89e3b
   languageName: node
   linkType: hard
 
@@ -3909,11 +3930,14 @@ __metadata:
     "@types/node": "npm:22.8.4"
     "@types/react": "npm:18.3.12"
     autoprefixer: "npm:^10.4.20"
+    clsx: "npm:^2.1.1"
+    date-fns: "npm:^4.1.0"
     eslint: "npm:^9.13.0"
     eslint-plugin-react: "npm:^7.37.2"
     eslint-plugin-tailwindcss: "npm:^3.17.5"
     framer-motion: "npm:^11.11.10"
     globals: "npm:^15.11.0"
+    lucide-static: "npm:^0.454.0"
     next: "npm:15.0.2"
     postcss: "npm:^8.4.47"
     react: "npm:18.3.1"

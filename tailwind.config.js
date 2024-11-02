@@ -1,8 +1,7 @@
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
-    './safelist.txt',
   ],
   theme: {
     extend: {
@@ -13,20 +12,11 @@ module.exports = {
       }
     },
     fontFamily: {
-      'sans': ['proxima-nova', 'ui-sans-serif', 'system-ui'],
+      'sans': ['var(--font-bt)', 'ui-sans-serif', 'system-ui'],
     },
   },
-  plugins: [
-    require('tailwind-safelist-generator')({
-      patterns: [
-        'text-{colors}',
-        'bg-{colors}',
-        'hover:text-{colors}',
-        'hover:border-{colors}',
-        'hover:shadow-{colors}',
-        'dark:text-{colors}',
-        'dark:bg-{colors}',
-      ],
-    }),
-  ],
+  safelist: [
+    { pattern: /from-(red|sky|green|yellow|purple)-600/ },
+    { pattern: /to-(red|sky|green|yellow|purple)-400/ },
+  ]
 };
