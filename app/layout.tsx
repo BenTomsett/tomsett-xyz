@@ -1,6 +1,7 @@
 import React from "react";
 import {Metadata} from "next";
 import {Work_Sans} from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import '../styles/globals.css';
 
@@ -35,6 +36,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
       <body className="flex flex-col flex-nowrap p-0">
         {children}
       </body>
+      <GoogleAnalytics gaId="G-6GVR4M2YJB" />
     </html>
   )
 }
