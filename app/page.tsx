@@ -195,7 +195,7 @@ export default function Page() {
           </div>
         </div>
         <div className="bg-gray-950">
-          <div className="container mx-auto py-6">
+          <div className="container mx-auto px-4 py-6">
             <p>© Ben Tomsett, 2024</p>
           </div>
         </div>
